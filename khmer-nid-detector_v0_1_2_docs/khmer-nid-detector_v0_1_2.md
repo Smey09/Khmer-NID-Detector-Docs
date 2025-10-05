@@ -1,6 +1,6 @@
 # Khmer NID Detector v0.1.2 🇰🇭
 
-![Khmer NID Detector](example.png)
+![Khmer NID Detector](../example.png)
 
 Unlock the power of AI for Cambodian document automation!  
 **Khmer NID Detector** is a cutting-edge Python package that leverages advanced OCR and Computer Vision to **detect and extract key information from Khmer National ID cards**. Streamline your workflow and boost accuracy for Cambodian ID recognition.
