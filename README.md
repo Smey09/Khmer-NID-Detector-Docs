@@ -4,6 +4,11 @@
 
 A powerful Python package for **detecting and extracting information from Khmer National ID cards** using advanced OCR and Computer Vision. Effortlessly automate document recognition and data extraction for Cambodian IDs!
 
+## 🌐 PyPI Project Page
+
+Find the package and more details on [PyPI](https://pypi.org/project/khmer-nid-detector/)
+
+
 ---
 
 ## 📦 Installation
