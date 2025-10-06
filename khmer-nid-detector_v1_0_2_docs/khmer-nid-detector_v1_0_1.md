@@ -1,4 +1,13 @@
-# Khmer NID Detector v1.0.1 🇰🇭
+# Khmer NID Detector v1.0.2 🇰🇭
+
+
+## Key Value of update from v1.0.1 to v1.0.2
+
+    - speed : update to faster that v1.0.1 (48.45%)
+    - Cross-Platform GPU/CPU Support**: Automatically detects available device:
+    - CUDA (NVIDIA GPU)
+    - MPS (macOS GPU)
+    - CPU fallback
 
 ![Khmer NID Detector](../example.png)
 
@@ -13,7 +22,7 @@ Discover more and get the latest updates on [PyPI](https://pypi.org/project/khme
 
 ---
 ## Find Docs Support
-[Khmer-NID-Detector-Docs](https://github.com/Smey09/Khmer-NID-Detector-Docs/tree/main/khmer-nid-detector_v0_1_5_docs)
+[Khmer-NID-Detector-Docs](https://github.com/Smey09/Khmer-NID-Detector-Docs)
 
 ## 📦 Quick Installation
 
@@ -53,10 +62,15 @@ pip install khmer-nid-detector
 ## 💡 Example Usage
 
 ```python
+import time
 from khmer_nid_detector import detect_card_type, process_nid_card
 
 with open("nid_card.jpg", "rb") as f:
     image_bytes = f.read()
+
+# Start time processing
+now = time.time()
+print(f"Start time: {now}")
 
 card_type = detect_card_type(image_bytes)
 print(f"Detected card type: {card_type}")
@@ -70,9 +84,13 @@ if card_type == "nid_card":
         print(f"Date of Birth: {result.dob}")
         print(f"Is Khmer NID: {result.is_khmer_nid}")
         print(f"Message: {result.message}")
-        print(f"Suggestion: {result.suggestion}")
     else:
         print(f"Error: {result.message}")
+
+end_time = time.time()
+print(f"End time: {end_time}")
+print(f"Total processing time: {end_time - now} seconds")
+
 
 ```
 

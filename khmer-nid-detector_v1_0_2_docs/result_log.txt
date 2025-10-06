@@ -1,0 +1,11 @@
+(nid_env) (base) smey@MacBook-Pro-3 test % python v2.py                    
+Start time: 1759719126.294661
+Using MPS (macOS GPU)
+Detected card type: nid_card
+NID Number: ***********
+Name: **** Reaksmey
+Date of Birth: None
+Is Khmer NID: True
+Message: Khmer NID card detected
+End time: 1759719130.729444
+Total processing time: 4.434782981872559 seconds
