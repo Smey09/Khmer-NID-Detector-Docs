@@ -8,6 +8,10 @@ A powerful Python package for **detecting and extracting information from Khmer 
 
 Find the package and more details on [PyPI](https://pypi.org/project/khmer-nid-detector/)
 
+![PyPI Daily Downloads](https://img.shields.io/pypi/dd/khmer-nid-detector?style=flat-square)
+![PyPI Weekly Downloads](https://img.shields.io/pypi/dw/khmer-nid-detector?style=flat-square)
+![PyPI Monthly Downloads](https://img.shields.io/pypi/dm/khmer-nid-detector?style=flat-square)
+
 
 ---
 
